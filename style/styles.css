@@ -1,0 +1,115 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-nav.navbar-center {                 /* Aligns Navbar Item to the center */
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.HomePage{
+    color:white;
+
+    /* BACKGROUD IMAGE */
+    background: url('https://i.postimg.cc/PrLYkQkC/pexels-daniel-absi-952670.jpg');
+    background-size: cover;
+    height: 523px;
+
+    background-repeat:repeat-y;
+    background-position:left;
+    background-repeat: repeat;
+}
+
+/* SHOP NOW BUTTON */
+.ShopNowBtn{
+    position:relative;
+    background-color: transparent;
+    border: 2px solid  white;
+    color:white;
+    padding: 15px;
+
+    /* remove link underline */
+    text-decoration: none;
+
+    /* ALIGN */
+    display: flex;
+    text-align: center;
+    justify-content: center;  
+    align-items: center; 
+    margin:auto;
+
+    /* border */
+    width:fit-content;
+    
+
+    /* position on home page */
+    top:225px;
+    
+  }
+
+  .ShopNowBtn:hover{
+    background-color:rgb(29, 29, 29);
+    color: white;
+    transition:0.5s;
+    opacity: 1;
+  }
+
+h1{
+    text-align: center;
+    margin: 20px;       /* space between home page bg image */
+}
+h4{
+    text-align: center;
+    margin: 40px;
+}
+
+
+.LinearProductList{
+    text-align: center;
+
+}
+
+.LinearProductList li{
+    display:inline-flex;
+    
+    text-align: center;
+    text-align-last:center;
+    justify-content: center;
+
+    margin: 0 0.5em;
+    gap:10px;          /* space between linear list */
+    
+
+    list-style: none;  /* removes bullets */
+    
+}
+
+/* links */
+/*remove link underline*/
+a{
+    text-decoration: none;
+}
+   
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: slateblue;
+  font-size:large;      /* increase font size on hover */
+}
+
+a:active {
+  color: pink;
+}
+
+.ProductPriceStatus{
+    text-align: center;
+}

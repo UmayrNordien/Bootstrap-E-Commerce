@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/styles.css">
+    <title>E-Commerce Project</title>
+</head>
+<body>
+    <section>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top p-3">
+
+            <div class="container-fluid">
+            
+              <!--LOGO (REPLACE WITH IMAGE)-->
+              <a class="navbar-brand" href="#">Logo</a>
+
+              <!--ABOUT-->
+              <a class="navbar-brand mx-5" style="font-size:medium" href="#">About</a>   <!--Needs to move right of Products-->
+
+              <!--PRODUCTS DROPDOWN BUTTON-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+
+                <ul class="navbar-nav navbar-center">
+                  <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" style="color:white" href="tshirts">T-Shirts</a></li>
+                      <li><a class="dropdown-item" style="color:white" href="hoodies">Hoodies</a></li>
+                      <li><a class="dropdown-item disabled" style="color:grey" href="bottoms">Bottoms</a></li>  <!--grey signifying unavailable-->
+                      <li><a class="dropdown-item disabled" style="color:grey" href="hats">Hats</a></li>
+                      <li><a class="dropdown-item disabled" style="color:grey" href="other">Other</a></li>
+                      <li><a class="dropdown-item disabled" style="color:grey" href="jewelry">Jewelry</a></li>
+                    </ul>
+
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    </section>
+
+
+    <section class="HomePage">
+        <div>
+
+            <div style="text-align:center">
+                <a href="#single-product.html" class="ShopNowBtn">Shop now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h1>P r o d u c t s</h1>
+            <!-- <ul class="LinearProductList">
+            
+                <li><a href="shirts">T-Shirts</a></li> |
+                <li><a href="outerwer">Hoodies</a></li> |
+                <li><a href="bottoms">Bottoms</a></li> |
+                <li><a href="hats">Hats</a></li> |
+                <li><a href="other">Other</a></li> |
+                <li><a href="jewelry">Jewelry</a></li> |
+                
+            </ul> -->
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <h4 id="tshirts">T-Shirts</h4>
+                    <img class="d-block mx-auto" src="https://i.postimg.cc/sg6Wx5Bh/Fear-of-God-Essentials-T-shirt-Wood.webp">
+                    <p class="ProductPriceStatus">sold out</p>
+                </div>
+
+            <div class="row" id="hoodies">
+                <div class="col-12 m-2">
+                    <h4>Hoodies</h4>
+                    <img class="d-block mx-auto" src="https://i.postimg.cc/9F08nQYc/Sp5der-OG-Rhinestone-Logo-Hoodie-White.webp">
+                    <p class="ProductPriceStatus">sold out</p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+<footer>
+
+    <div class="container">
+            
+        <div class="row text-dark">
+            <div class="col-4">
+                <h4 id="tshirts">Location</h4>
+            </div>
+            <div class="col-4">
+                <h4 id="tshirts">Social</h4>
+            </div>
+            <div class="col-4">
+                <h4 id="tshirts">Subscribe</h4>
+            </div>
+        </div>
+    </div>
+
+
+</footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>     
+</body>
+</html>
